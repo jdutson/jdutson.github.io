@@ -4,7 +4,7 @@ var bio = {
     "role": "Front-End Web Developer",
     "contacts": {
         "mobile": "(435) 979-0894",
-        "mobileURL": "",
+        "mobileURL": "https://jdutson.github.io/",
         "email": "jamiedutson2@gmail.com",
         "emailURL": "mailto:jamiedutson2@gmail.com",
         "github": "jdutson",
@@ -16,7 +16,7 @@ var bio = {
     },
     "bioPic": "images/Me.jpg",
     "welcomeMessage": "Adaptive, Dynamic, and Multi-faceted; I have a diverse background and am passionate about customer satisfaction and responsive design. I was drawn to Web Development because of its mix of code and design. I'm creative and efficient, right and left brained, and I love figuring things out and making something both beautiful and practical.",
-    "skills": ["HTML", "CSS", "JavaScript", "Jquery", "Bootstrap", "Git", "GitHub", "Windows", "DreamWeaver", "WordPress", "Excel"],
+    "skills": ["HTML", "CSS", "JavaScript", "Jquery", "Bootstrap", "Git", "GitHub", "DreamWeaver", "WordPress", "Excel"],
 };
 bio.display = function() {
 
@@ -79,7 +79,7 @@ var work = {
         "title": "Customer Care Coordinator",
         "location": "South Jordan, Utah",
         "dates": "2015-current",
-        "description": "I work on projects to improve customer service satisfaction. We build and report on surveys, review processes, and improve quality management"
+        "description": "I work on projects to improve customer service satisfaction. I build reports, run queries, perform Quality Assurance checks, and review policies and procedures."
     }, {
         "employer": "Pappa John's Pizza",
         "title": "Delivery Driver",
