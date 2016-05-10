@@ -46,31 +46,11 @@ bio.display = function() {
     var formattedbioLocation = HTMLlocation.replace("%data%", bio.contacts.location);
     var formattedbioLocation = formattedbioLocation.replace("#", bio.contacts.locationURL);
     $("#topContacts").append(formattedbioLocation);
-    if (bio.skills.length > 0) {
-        $("#header").append(HTMLskillsStart);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[4]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[5]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[6]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[7]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[8]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[9]);
-        $("#skills").append(formattedSkill);
-        var formattedSkill = HTMLskills.replace("%data%", bio.skills[10]);
-        $("#skills").append(formattedSkill);
-    }
+	$("#header").append(HTMLskillsStart);
+for ( var i = 0; i < bio.skills.length; i++ ) {	
+        var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
+		$("#skills").append(formattedSkill);
+	}
 };
 
 var work = {
